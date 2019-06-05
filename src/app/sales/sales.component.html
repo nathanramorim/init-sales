@@ -1,0 +1,33 @@
+<div class="col-md-12">
+    <h3 class="mb-5">Cadastro de Leilão</h3>
+    {{saleData.value | json }}
+    {{saleData.valid }}
+    <form novalidate #saleData = "ngForm" (ngSubmit)="listSales.addSale(saleData.value)">
+        <div class="row">
+            <div class="col-md-12 form-group">
+                <input type="text" name="nome" ngModel  required placeholder="Produto" id="" class="form-control">
+            </div>
+            <div class="col-md-12 form-group">
+                <input type="text" name="valorInicial" ngModel required placeholder="Valor inicial" class="form-control" id="">
+            </div>
+            <div class="col-md-12 form-group">
+                <input type="text" name="categoria" ngModel required placeholder="Usado/Novo" class="form-control" id="">
+            </div>
+        </div>
+            
+        <div class="row mb-5">
+            <div class="offset-md-6 col-md-3">
+                <button type="submit" class="btn btn-success btn-block btn-lg">Add</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-light btn-block btn-lg">Limpar</button>
+            </div>
+        </div>
+    </form>
+
+    <div class="row">
+        <div class="col-md-12">
+            <app-sale-list #listSales></app-sale-list>
+        </div>
+    </div>
+</div>

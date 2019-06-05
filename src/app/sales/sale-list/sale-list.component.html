@@ -1,0 +1,27 @@
+<table class="table table-hover col-md-12">
+  <thead>
+    <tr>
+      <th>Codigo</th>
+      <th>Nome</th>
+      <th>Valor Inicial</th>
+      <th>Categoria</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let sale of allSales">
+      <td>{{sale.id}}</td>
+      <td>{{sale.nome}}</td>
+      <td>{{sale.valorInicial}}</td>
+      <td>{{sale.categoria}}</td>
+      <td>
+        <a class="btn">
+          <i class="fa fa-edit"></i>
+        </a>
+        <a class="btn text-danger">
+          <i class="fa fa-trash" (click)="deleteSale(sale.id)"></i>
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>

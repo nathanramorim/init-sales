@@ -1,0 +1,50 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Nathan Amorim",
+      "email": "nathan.amorim@totvs.com.br",
+      "senha": "123456789"
+    },
+    {
+      "id": 2,
+      "nome": "Ana Carvalho",
+      "email": "ana.carvalho@totvs.com.br",
+      "senha": "123456789"
+    }
+  ],
+  "leilao": [
+    {
+      "id": 1,
+      "nome": "Vaso porcelanato",
+      "valorInicial": 200,
+      "categoria": "novo",
+      "codigoUsuario": 1
+    },
+    {
+      "id": 1,
+      "nome": "Vaso porcelanato Amarelo",
+      "valorInicial": 100,
+      "categoria": "usado",
+      "codigoUsuario": 2
+    },
+    {
+      "nome": "Chaleira",
+      "valorInicial": "80",
+      "categoria": "Novo",
+      "id": 2
+    },
+    {
+      "nome": "Vasilha",
+      "valorInicial": "50",
+      "categoria": "Novo",
+      "id": 3
+    },
+    {
+      "nome": "Jessica",
+      "valorInicial": "1000",
+      "categoria": "Usado",
+      "id": 4
+    }
+  ]
+}
