@@ -1,7 +1,5 @@
 <div class="col-md-12">
     <h3 class="mb-5">Cadastro de Leilão</h3>
-    {{saleData.value | json }}
-    {{saleData.valid }}
     <form novalidate #saleData = "ngForm" (ngSubmit)="listSales.addSale(saleData.value)">
         <div class="row">
             <div class="col-md-12 form-group">
