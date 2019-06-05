@@ -3,13 +3,13 @@
     {
       "id": 1,
       "nome": "Nathan Amorim",
-      "email": "nathan.amorim@totvs.com.br",
+      "email": "nathan.amorim@nathan",
       "senha": "123456789"
     },
     {
       "id": 2,
       "nome": "Ana Carvalho",
-      "email": "ana.carvalho@totvs.com.br",
+      "email": "ana.carvalho@ana",
       "senha": "123456789"
     }
   ],
